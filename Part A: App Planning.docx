@@ -1,0 +1,51 @@
+CP3406 Assignment 1 Part A: App Planning
+
+1. Scenario Selected: Scenario 6 – Student Study and Time Management App
+An overview of the issue is that Lisa, a college student, balances her social life, part-time job, and coursework. She has trouble setting priorities, frequently misses deadlines, and has trouble efficiently managing her time. In order to maintain a healthy lifestyle, she needs a tool that may assist her in organizing, prioritizing, and monitoring her personal and academic obligations.
+
+•	Why This Scenario is Meaningful:
+Being a student myself, I completely understand Lisa's struggles. Students frequently struggle to balance their personal lives, careers, and education. It is pertinent and personally motivated to develop an app that fills this need because I would gain from utilizing such a solution.
+
+•	Target Audience:
+o	University and high school students
+o	Part-time working students
+o	Individuals preparing for exams or competitive tests
+
+2. Related Apps
+App Name	Platform	Link	Strengths	Weaknesses	Key Differences of My App
+Forest	Android / iOS	https://www.forestapp.cc/
+Promotes focus through gamified Pomodoro sessions using a tree-planting concept	Does not support task management, scheduling, or academic planning	My app will integrate Forest-style focus timers alongside comprehensive task management, scheduling tools, and academic progress tracking 
+MyStudyLife	Android / iOS	mystudylife.com
+Tailored for students with features like class scheduling and assignment tracking	Outdated interface and lacks motivational or habit-forming tools	My app will offer a modern and responsive interface, plus include features such as progress tracking, daily study goals, and gamified habit-building techniques.
+Microsoft To Do	Android / iOS/ web	https://to-do.office.com/tasks/
+Clean UI with task reminders, syncing across devices, and integration with Microsoft services	Generic task manager; lacks academic focus or focus-timer features	My app will focus specifically on student needs, combining academic task workflows with focus timers, calendar sync, and study progress visualizations.
+________________________________________
+3. Initial Feature List
+Core Features
+•	Smart Task List: Categorized into academic, personal, and priority tasks
+•	Calendar Integration: Weekly/monthly views with upcoming due dates and exams
+•	Focus Timer: Inspired by Forest app (e.g. Pomodoro sessions with visual progress)
+•	Study Progress Tracker: Visual dashboard for completed tasks and time spent
+•	Reminders & Notifications: Automatic alerts for deadlines and study sessions
+User Experience Features
+•	User Profiles: Customizable academic profiles (e.g., major, semester, subjects)
+•	Gamification Elements: Rewards for task completion and streaks
+•	Dark/Light Mode Toggle
+•	Tab-Based Navigation: Tasks | Focus | Calendar | Profile
+
+4. Learning Goals & Resources
+
+Concept / Tool	What I Need to Learn	Link to Resource
+Room Database	How to store user tasks and goals locally	Room Persistence Library
+
+RecyclerView	Display dynamic lists of tasks and deadlines	RecyclerView Guide
+
+AlarmManager / WorkManager	Send task reminders and notifications	WorkManager vs AlarmManager
+
+SharedPreferences	Save theme preferences and user settings	SharedPreferences Guide
+
+Material Design Components	Build a modern and responsive UI	Material Components
+
+Firebase (optional)	For cloud backup and user authentication	Firebase for Android
+
+
